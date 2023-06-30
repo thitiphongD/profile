@@ -1,11 +1,426 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INDEX</title>
+    <title>Thitiphong Srisavat</title>
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
 </head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+    body {
+        font-family: 'Inter', sans-serif;
+        background-color: #F5F5F5;
+    }
+
+    .a {
+        height: 850px;
+        display: flex;
+    }
+
+    .ab {
+        width: 400px;
+        background-color: #fff;
+        border-radius: 20px;
+        border: none;
+        padding: 20px;
+    }
+
+    .c {
+        width: 70vw;
+        overflow-y: auto;
+    }
+
+    .cc {
+        margin: 10px;
+        padding: 14px;
+        background-color: #fff;
+        border-radius: 20px;
+        border: none;
+    }
+
+    .skills {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: #27374D 0.5px solid;
+        padding: 3px;
+    }
+
+    .skills img {
+        width: 35px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .ws-text-changer {
+        font-size: 25px;
+        color: #27374D;
+    }
+
+    .font-name {
+        font-size: 30px;
+        font-weight: 700;
+        color: #27374D;
+    }
+
+    .profile-head {
+        line-height: 0;
+        padding-top: 1px;
+    }
+
+    .font-role {
+        font-size: 16px;
+        font-weight: 400;
+        color: #9DB2BF;
+    }
+
+    .font-section {
+        font-size: 20px;
+        font-weight: 600;
+        color: #27374D;
+    }
+
+    .font-skill-section {
+        font-size: 16px;
+        font-weight: 500;
+        color: #27374D;
+    }
+
+    .font-p {
+        font-size: 14px;
+        color: #526D82;
+        padding: 3px;
+    }
+
+    .experience {
+        padding-left: 20px;
+    }
+
+    .button-link {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .btn {
+        width: 120px;
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid #27374D;
+        background: none;
+        border-radius: 10px;
+        color: #27374D;
+    }
+
+    .btn:hover {
+        background-color: #27374D;
+        color: #fff;
+        border: none;
+    }
+
+    .social-container {
+        display: flex;
+    }
+
+    .contact {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .contact-content {
+        background-color: #fefefe;
+        margin: 5% auto;
+        padding: 20px;
+        border: none;
+        width: 80%;
+        height: 80vh;
+        border-radius: 20px;
+    }
+
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #27374D;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .contact-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .modalPDF {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .modalPDF-content {
+        background-color: #fefefe;
+        margin: 4% auto;
+        /* Adjust the margin-top and margin-bottom values */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 90%;
+        border-radius: 20px;
+        height: 100vh;
+    }
+
+    iframe {
+        width: 100%;
+        height: 600px;
+    }
+
+    .about {
+        font-size: 24px;
+        text-align: start;
+        font-weight: 200;
+        margin: 0;
+        color: #27374D;
+    }
+
+    .about-head {
+        font-size: 20px;
+        color: #27374D;
+    }
+    .about-tail {
+        font-size: 12px;
+        color: #27374D;
+    }
+</style>
+
 <body>
-    <h1>Hello Daew</h1>
+    <div class="a">
+        <div class="ab">
+            <div class="ws-text-changer">สวัสดีเขียดผู้มีแกก</div>
+            <div class="profile-head">
+                <p class="font-name">Thitiphong Srisavat</p>
+                <p class="font-role">Full Stack Developer</p>
+            </div>
+            <div>
+
+            </div>
+            <div style="padding-top: 1px;">
+                <p class="font-p">I am a Full-Stack Developer with a diverse set of skills in
+                    both front-end
+                    and back-end technologies,
+                    including HTML/CSS, JavaScript, NodeJS, and PostgreSQL. I am passionate about creating web
+                    applications that deliver seamless user experiences. In addition to my technical skills, I am
+                    skilled in communicating and collaborating with clients and stakeholders. I work efficiently in
+                    fast-paced environments, using Agile and Scrum methodologies to manage projects and deliverables. I
+                    am experienced in understanding client needs, translating requirements into technical
+                    specifications, and delivering projects within strict deadlines.
+                </p>
+            </div>
+            <div>
+                <p class="font-section">Technical Skills</p>
+                <div style="line-height: 0px;">
+                    <div class="skills">
+                        <div>
+                            <p class="font-skill-section">Back end</p>
+                        </div>
+                        <div>
+                            <img src="/imgs/nodejs.svg">
+                            <img src="/imgs/golang.svg">
+                            <img src="/imgs/java.svg">
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div>
+                            <p class="font-skill-section">Front End</p>
+                        </div>
+                        <div>
+                            <img src="/imgs/javascript.svg">
+                            <img src="/imgs/html5.svg">
+                            <img src="/imgs/css.svg">
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div>
+                            <p class="font-skill-section">Database</p>
+                        </div>
+                        <div>
+                            <img src="/imgs/postgresql.svg">
+                            <img src="/imgs/mysql.svg">
+                            <img src="/imgs/mongodb.svg">
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div>
+                            <p class="font-skill-section">Version Control System</p>
+                        </div>
+                        <div>
+                            <img src="/imgs/github.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p class="font-section">Behaviors Skills</p>
+                <div style="display: flex;">
+                    <li style="padding-right: 10px; font-size: 16px; color: #27374D; font-weight: 500;">Growth mindset
+                    </li>
+                    <li style="font-size: 16px; color: #27374D; font-weight: 500;">Teamwork</li>
+                </div>
+                <div style="display: flex;">
+                    <li style="padding-right: 16px; color: #27374D; font-size: 16px; color: #27374D; font-weight: 500;">
+                        Communication</li>
+                    <li style="font-size: 16px; color: #27374D; font-weight: 500;">Problem Solving</li>
+                </div>
+            </div>
+            <div class="button-link">
+                <button class="btn" onclick="opencontact();">Contact</button>
+                <button class="btn" onclick="openPDFModalPDF('/document/Thitiphong_Resume.pdf')">Resume</button>
+            </div>
+        </div>
+
+        <div class="c">
+            <div class="cc">
+                <p class="font-section">EXPERIENCE</p>
+                <div style="display: flex; justify-content: space-between; line-height: 0;">
+                    <p class="font-skill-section">Full stack Developer</p>
+                    <p class="font-skill-section">August 2022 - Current</p>
+                </div>
+                <div class="experience">
+                    <p class="font-skill-section">Unit Company</p>
+                    <li class="font-p">Built databases and table structures for web applications.</li>
+                    <li class="font-p">Corrected, modified and upgraded the website to improve performance.</li>
+                    <li class="font-p">Worked with back-end developers to design APIs.</li>
+                    <li class="font-p">Coordinated deployments of new feature updates and fixes.</li>
+                    <li class="font-p">Discussed project progress with customers, collected feedback on different stages
+                        and directly
+                        addressed concerns.</li>
+                    <li class="font-p">Developed functional databases, applications and servers to support websites on
+                        back-end.</li>
+                    <li class="font-p">Used NodeJS and SQL to develop and manage databases.</li>
+                </div>
+                <div style="display: flex; justify-content: space-between; padding-top: 15px;">
+                    <p class="font-skill-section">Junior Software Developer Bootcamp</p>
+                    <p class="font-skill-section">Jan 2022 - Apr 2022</p>
+                </div>
+                <div class="experience">
+                    <p class="font-skill-section">Generation Thailand</p>
+                    <li class="font-p">Built databases and table structures for web applications.</li>
+                    <li class="font-p">Final Project: Build an exercise-tracking web application using MERN stack
+                        (Mongo, Express,
+                        React and Node.js). The application allows users to record exercise information, such as date,
+                        weight, height, exercise type, and calories burned</li>
+                </div>
+
+            </div>
+
+            <div class="cc">
+                <p class="font-section">EDUCATIONS</p>
+                <div style="display: flex; justify-content: space-between;">
+                    <p class="font-skill-section">Thai-Austrian Technical College (Chonburi, Thailand)</p>
+                    <p class="font-skill-section">2010 - 2012</p>
+                </div>
+                <div>
+                    <li class="font-p">Diploma in Instrumentation</li>
+                    <li class="font-p">Thai-Austrian Student Council - Activity President</li>
+                </div>
+            </div>
+
+
+            <div class="cc">
+                <p class="font-section">EXTRACURRICULAR ACTIVITIES & ACHIEVEMENT</p>
+                <div style="display: flex; justify-content: space-between;">
+                    <p class="font-skill-section">Codestar Java Programing (Bangkok, Thailand)</p>
+                    <p class="font-skill-section">2020</p>
+                </div>
+                <div>
+                    <li class="font-p">Learn Java, Algorithm, GCP, Database and Framework(Spring-boot)and know to enter
+                        junior
+                        developer roles</li>
+                </div>
+                <div style="display: flex; justify-content: space-between;">
+                    <p class="font-skill-section">Data Analytics and Data Fluency: Exploring and Describing Data
+                        Certificate (Linkedin)</p>
+                    <p class="font-skill-section">2021</p>
+                </div>
+                <div>
+                    <li class="font-p">Learn fundamentals of data fluency or the ability to work with data and how
+                        exploring data with
+                        graphs and
+                        describing data with statistics</li>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="mycontact" class="contact">
+        <div class="contact-content">
+            <span class="close" onclick="closecontact()">&times;</span>
+            <div class="contact-container">
+                <div style="width: 350px; text-align: center; margin: 20px;">
+                    <div>
+                        <img src="/imgs/address.png" style="width: 50px;">
+                        <p class="about-head">Address</p>
+                        <p class="about-tail">Dindaeng, Bangkok, 10400</p>
+                        <p class="about-tail">Thailand</p>
+                    </div>
+                    <div>
+                        <img src="/imgs/email.png" style="width: 50px;">
+                        <p class="about-head">Email</p>
+                        <p class="about-tail">thitiphong.srisavat@gmail.com</p>
+                    </div>
+                    <div>
+                        <img src="/imgs/phone.png" style="width: 50px;">
+                        <p class="about-head">Phone</p>
+                        <p class="about-tail">0998790864</p>
+                        <p class="about-tail">+66998790864</p>
+                    </div>
+                </div>
+                <div style="width: 500px; height: 100px; text-align: center; margin: 20px;">
+                    <img src="/imgs/profile.jpeg" style="width: 260px; border-radius: 50%;">
+                    <p class="about">Hi there 👋</p>
+                    <p class="about">My name is Thitiphong Srisavat.</p>
+                    <p class="about">A passionate full stack developer from Thailand</p>
+                    <div style="display: flex; justify-content: start; gap: 30px;">
+                        <div onclick="window.location.href='https://github.com/thitiphongD'">
+                            <p class="about-head">Github</p>
+                            <img src="/imgs/github.svg" style="width: 50px;">
+                        </div>
+                        <div onclick="window.location.href='https://www.linkedin.com/in/thitiphong-srisavat-36b264239'">
+                            <p class="about-head">Linkedin</p>
+                            <img src="/imgs/linkedin.svg" style="width: 50px;">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="pdfModalPDF" class="modalPDF">
+        <div class="modalPDF-content">
+            <span class="close" onclick="closePDFModalPDF()">&times;</span>
+            <iframe id="pdfPreview" src=""></iframe>
+        </div>
+    </div>
+    <script src="/script.js"></script>
 </body>
+
 </html>
